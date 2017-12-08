@@ -1,0 +1,54 @@
+<div class= 'flex-container'>
+
+<div class= 'title-description'>
+<p class='title'> Investissez dès maintenant dans du bétail ! </p>
+
+
+<p> La vache, c'est l'animal tendance du moment ! </p>
+
+ <p> Pour les aider à prospérer,
+ donnez un coup de pouce à nos éleveurs de talent tout en bénéficiant d'avantages non négligeables : </p>
+<ul>
+  <li> Une vache supplémentaire est ajoutée à votre troupeau tous les 18 mois, les 5 premières années </li>
+  <li> Un revenu sur investissement situé en moyenne entre 15 et 40% </li>
+  <li> Votre vache est remplacée en cas de décès accidentel ou d'infertilité </li>
+  <li> Votre troupeau est entretenu et soigné par les bergers locaux </li>
+  <li> Vous supportez une cause humanitaire et contribuez à l'économie locale </li>
+</ul>
+ <button class="investbutton">A partir de 1500€</button>
+</div>
+
+<%= image_tag "vachesk.jpg", :class => "vachesk img-responsive" %>
+
+
+</div>
+
+<p class= 'simulation'> Simulez un placement fictif pour plus de visibilité ! </p>
+
+<div class = 'form Open-Sans-Font'>
+  <form action="simulation_investment">
+
+  Nombre de vache(s):<br>
+
+  <input class="Open-Sans-Font" type="number" id= "cowsnumber" min="1" max="999" >
+  <br>
+
+  Coût estimé du bétail:<br>
+   <input type="numbers" id="cost">
+  <br>
+  Revenu estimé :<br>
+  <input type='numbers' id="income">
+  <br>
+    Profit estimé :<br>
+    <input type='numbers' id="profit">
+    <br>
+    Profit net après commission :<br>
+    <input type='numbers' id="netprofit">
+  <br><br>
+  </form>
+</div>
+
+<p class= "faq Open-Sans-Font"> Vous avez des questions ? Nous sommes là pour y répondre ! Essayer d'abord notre <a href="https://fr.wikipedia.org/wiki/Foire_aux_questions">FAQ</a>
+pour gagner du temps ! </p>
+
+<%= javascript_include_tag('participate.js') %>
