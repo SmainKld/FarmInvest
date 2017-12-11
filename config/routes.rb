@@ -7,9 +7,7 @@ Rails.application.routes.draw do
   get 'inscription', to: 'home#Index'
   get 'investir', to: 'pages#investir'
   get 'about', to: 'pages#about'
-  get 'contact/new'
-  get 'contacts/create'
-  get 'contacts', to: 'contacts#create'
+  resources :contacts, only: [:new, :create]
   root 'pages#home'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
