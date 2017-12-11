@@ -1,19 +1,26 @@
-<h2>Edit <%= resource_name.to_s.humanize %></h2>
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+         
+         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+
+<h1 class="Open-Sans-Font animated shake"><i class="fa fa-user"></i>  Mon Compte</h1>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= devise_error_messages! %>
 
   <div class="field">
-    <%= f.label :email %><br />
+    <i class="fa fa-envelope">  </i><%= f.label :"Email" %><br />
     <%= f.email_field :email, autofocus: true %>
   </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
     <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
   <% end %>
+  <br/>
 
   <div class="field">
-    <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+    <%= f.label :"Mot de Passe" %> <i>(laissez vide si vous ne souhaitez pas en changer)</i><br />
     <%= f.password_field :password, autocomplete: "off" %>
     <% if @minimum_password_length %>
       <br />
@@ -25,6 +32,7 @@
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
+  <br/>
 
   <div class="field">
     <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
@@ -36,8 +44,18 @@
   </div>
 <% end %>
 
-<h3>Cancel my account</h3>
+  <br/>
+    <br/>
+      <br/>
+<h3><i class="fa fa-ban"></i>  Fermer votre compte</h3>
 
-<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+<p>Cette opération est définitive <%= button_to "Fermer mon compte", registration_path(resource_name), data: { confirm: "Êtes-vous sur de cela ?" }, method: :delete %></p>
 
-<%= link_to "Back", :back %>
+  <%= link_to('Logout', destroy_user_session_path, method: :delete) %>        
+
+<%= link_to "Retour", :back %>
+
+ </div>
+    </div>
+  </div>
+</div>
