@@ -18,15 +18,17 @@ list-style-position: inside;
 
 .title {
 text-align: center;
-font-size: 20px;
+font-size: 30px;
+font-family: poppins; sans-serif;
+margin-top: 25px;
 }
 
 .investbutton {
 
-margin-top: 50px;
+margin-top: 20px;
 margin-left: 350px;
 background-color: #e7e7e7;
-margin-bottom: 15px;
+margin-bottom: 35px;
 border: none;
 color: black;
 padding: 15px 32px;
@@ -34,6 +36,8 @@ text-align: center;
 text-decoration: none;
 font-size: 25px;
 border-radius: 4px;
+width: 300px;
+height: 75px;
 }
 
 .investbutton:hover {
@@ -42,18 +46,21 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 .vachesk {
 width: 350px;
-height: 350px;
+height: 300px;
 margin-right: 40px;
-margin-top: 40px;
+margin-top: 55px;
 margin-bottom: 40px;
 margin-left: 10px;
 border-radius: 5px;
 }
 
 .simulation {
-font-family: Poppins;
-font-size: 25px;
-text-align: center;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 40px;
+  margin:0 auto;
+  font-family: poppins; Arial; sans-serif;
+  margin-bottom: 30px;
 }
 
 .form {
@@ -72,8 +79,34 @@ width: 580px;
 
 .faq {
 text-align: center;
-top: 60px;
+top: 30px;
 display: block;
 position: relative;
+font-size: 17px;
+}
+
+.investargument {
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+.cost {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+#cost {
+font-size: 22px;
+}
+#income {
+font-size: 22px;
+}
+#profit {
+font-size: 22px;
+}
+#netprofit {
+font-size: 22px;
+}
+#cowsnumber {
 font-size: 22px;
 }

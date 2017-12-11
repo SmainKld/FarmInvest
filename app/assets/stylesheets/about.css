@@ -11,18 +11,21 @@ height: 400px;
 
 .contactbutton{
 
-width: 15%;
-height: 15%;
+width: 20%;
+height: 20%;
 border-radius: 10px;
 padding: 5px;
 margin:0 auto;
-margin-top: 100px;
+margin-top: 50px;
+font-size: 25px;
+background-color: #e7e7e7;
 }
 
 .catchphrase1 {
 text-align: center;
-font-size: 20px;
+font-size: 30px;
 top: 10%;
+font-family: 'poppins', sans-serif, Arial;
 }
 
 .contactbutton:hover {
@@ -30,8 +33,20 @@ background-color: white;
 }
 
 .titletext {
-
 text-align: center;
-font-size: 25px;
+padding-top: 25px;
+font-size: 40px;
 margin:0 auto;
+font-family: poppins; Arial; sans-serif;
+}
+
+.texteabout {
+  font-family: 'Open Sans', sans-serif, Arial;
+  width: 85%;
+  text-align: justify;
+  margin: auto;
+}
+
+.histoire {
+  text-transform: uppercase;
 }

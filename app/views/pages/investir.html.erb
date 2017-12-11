@@ -3,22 +3,24 @@
 <div class= 'title-description'>
 <p class='title'> Investissez dès maintenant dans du bétail ! </p>
 
+<div class="investargument">
 
 <p> La vache, c'est l'animal tendance du moment ! </p>
 
- <p> Pour les aider à prospérer,
- donnez un coup de pouce à nos éleveurs de talent tout en bénéficiant d'avantages non négligeables : </p>
+ <p> Donnez un coup de pouce à nos éleveurs de talent tout en bénéficiant d'avantages non négligeables : </p>
 <ul>
-  <li> Une vache supplémentaire est ajoutée à votre troupeau tous les 18 mois, les 5 premières années </li>
   <li> Un revenu sur investissement situé en moyenne entre 15 et 40% </li>
   <li> Votre vache est remplacée en cas de décès accidentel ou d'infertilité </li>
   <li> Votre troupeau est entretenu et soigné par les bergers locaux </li>
-  <li> Vous supportez une cause humanitaire et contribuez à l'économie locale </li>
+  <li> Vous supportez une cause humanitaire et contribuez à l'économie locale. </li>
 </ul>
+
+</div>
+
  <button class="investbutton">A partir de 1500€</button>
 </div>
 
-<%= image_tag "vachesk.jpg", :class => "vachesk img-responsive" %>
+<%= image_tag "vachesk.jpg", :class => "vachesk" %>
 
 
 </div>
@@ -28,23 +30,21 @@
 <div class = 'form Open-Sans-Font'>
   <form action="simulation_investment">
 
-  Nombre de vache(s):<br>
+  <p class="cost">Nombre de vache(s):</p>
 
   <input class="Open-Sans-Font" type="number" id= "cowsnumber" min="1" max="999" >
-  <br>
 
-  Coût estimé du bétail:<br>
+
+  <p class="cost">Coût estimé du bétail:</p>
    <input type="numbers" id="cost">
-  <br>
-  Revenu estimé :<br>
+  <p class="cost">Revenu estimé :</p>
   <input type='numbers' id="income">
-  <br>
-    Profit estimé :<br>
+
+    <p class="cost">Profit estimé :</p>
     <input type='numbers' id="profit">
-    <br>
-    Profit net après commission :<br>
+
+    <p class="cost">Profit net après commission :</p>
     <input type='numbers' id="netprofit">
-  <br><br>
   </form>
 </div>
 
