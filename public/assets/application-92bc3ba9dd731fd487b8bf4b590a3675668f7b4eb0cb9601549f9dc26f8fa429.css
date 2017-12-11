@@ -1,0 +1,394 @@
+.flex-container2 {
+display: flex;
+background-color: #53df83;
+font-family: Poppins;
+color: white;
+font-size: 15px;
+flex-direction: column;
+justify-content: center;
+height: 400px;
+}
+
+.contactbutton{
+
+width: 20%;
+height: 20%;
+border-radius: 10px;
+padding: 5px;
+margin:0 auto;
+margin-top: 50px;
+font-size: 25px;
+background-color: #e7e7e7;
+}
+
+.catchphrase1 {
+text-align: center;
+font-size: 30px;
+top: 10%;
+font-family: 'poppins', sans-serif, Arial;
+}
+
+.contactbutton:hover {
+background-color: white;
+}
+
+.titletext {
+text-align: center;
+padding-top: 25px;
+font-size: 40px;
+margin:0 auto;
+font-family: poppins; Arial; sans-serif;
+}
+
+.texteabout {
+  font-family: 'Open Sans', sans-serif, Arial;
+  width: 85%;
+  text-align: justify;
+  margin: auto;
+}
+
+.histoire {
+  text-transform: uppercase;
+}
+.poppins a
+
+{
+  font-family: Poppins;
+  color: #53DF83 ;
+}
+
+.poppux
+
+{
+  font-family: Poppins;
+}
+
+.poppins
+
+{
+  font-family: Poppins;
+  color: #53DF83 ;
+  margin-top: 1em;
+}
+
+.poppins a:hover
+
+{
+  font-family: Poppins;
+  color: white ;
+  list-style:none !important;
+  background-color: #53DF83 !important;
+   text-decoration: none;
+
+}
+
+.margetop
+{
+  margin-left: 1em;
+    margin-top: 1em;
+
+}
+
+.margetop-big
+{
+  margin-left: 26em;
+  margin-top: 1em;
+}
+
+.margetop-co
+{
+      margin-top: 0.5em !important;
+
+}
+
+.hr
+{
+border-bottom: 1px solid gray;
+}
+
+.home
+{
+  background-color: #EEEEEE;
+}
+
+.Open-Sans-Font
+{
+
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+
+}
+
+
+/* CSS DE SMAIN */
+
+#section1 {
+  background-color: #53DF83;
+  font-family: Poppins; Arial;
+  display: flex;
+}
+
+.plateforme {
+  margin-top: 65px;
+  color: white;
+  font-size: 30px;
+}
+
+.description {
+  margin-top: 45px;
+  color: white ;
+  font-size: 20px;
+}
+
+.plateforme_description {
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.vache {
+  margin-top: 55px;
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 55px;
+}
+
+.button {
+  margin-top: 60px;
+  background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 4px;
+}
+
+.pourquoifi {
+  font-family: Poppins;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#section2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc {
+  background-color: whitesmoke;
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.vache1 {
+  width: 235px;
+  height: 165px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 23px;
+}
+
+.bloc_titre {
+  margin-top: 13px;
+  text-align: center;
+  color: #53DF83;
+  font-family: Poppins; Arial;
+  font-size: 20px;
+}
+
+.bloc_paragraphe {
+  text-align: center;
+  font-family: Poppins; Arial;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#section3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc2 {
+  background-color: whitesmoke;
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.fa-5x  {
+  line-height: inherit;
+  margin-left: 165px;
+}
+
+#section4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#shiva {
+  font-family: Abril fatface; Arial;
+  text-align: center;
+  font-size: 65px;
+}
+
+.bloc3 {
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.bloc_paragraphe3 {
+  text-align: center;
+  font-family: Poppins; Arial;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.adresse {
+  text-align: center;
+  margin-top: 15px;
+}
+.flex-container {
+display: flex;
+background-color: #53df83;
+font-family: Poppins;
+color: white;
+font-size: 15px;
+}
+
+.title-description {
+margin-left: 40px;
+margin-right: 20px;
+justify-content: center;
+}
+
+.li {
+list-style-position: inside;
+}
+
+.title {
+text-align: center;
+font-size: 30px;
+font-family: poppins; sans-serif;
+margin-top: 25px;
+}
+
+.investbutton {
+
+margin-top: 20px;
+margin-left: 350px;
+background-color: #e7e7e7;
+margin-bottom: 35px;
+border: none;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+font-size: 25px;
+border-radius: 4px;
+width: 300px;
+height: 75px;
+}
+
+.investbutton:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.vachesk {
+width: 350px;
+height: 300px;
+margin-right: 40px;
+margin-top: 55px;
+margin-bottom: 40px;
+margin-left: 10px;
+border-radius: 5px;
+}
+
+.simulation {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 40px;
+  margin:0 auto;
+  font-family: poppins; Arial; sans-serif;
+  margin-bottom: 30px;
+}
+
+.form {
+text-align: center;
+margin: auto;
+border-style: solid;
+border-color: #53df83;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+border-top-right-radius: 50px;
+border-top-left-radius: 50px;
+padding-bottom: 30px;
+padding-top: 30px;
+width: 580px;
+}
+
+.faq {
+text-align: center;
+top: 30px;
+display: block;
+position: relative;
+font-size: 17px;
+}
+
+.investargument {
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+.cost {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+#cost {
+font-size: 22px;
+}
+#income {
+font-size: 22px;
+}
+#profit {
+font-size: 22px;
+}
+#netprofit {
+font-size: 22px;
+}
+#cowsnumber {
+font-size: 22px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
