@@ -11,7 +11,7 @@ def create
     flash.now[:error] = nil
   else
     flash.now[:error] = 'Le message ne peut pas être envoyé.'
-    render :create
+    render :new
   end
 end
 end
