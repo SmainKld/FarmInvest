@@ -49,12 +49,12 @@
         <li class="margetop"><a href="/">Blog</a></li>
   <% if user_signed_in? %>
         <form method="get" action="/users/edit">
-        <li class="margetop margetop-co"><button action="/users/edit" class="btn btn-success poppux"><i class="fa fa-user"></i> Mon Compte</button>
+        <li class="margetop margetop-co"><button action="/users/edit" class="btn btn-success poppux btround"><i class="fa fa-user"></i> Mon Compte</button>
         </form>
   <% else %>
 
             <form method="get" action="<%= new_user_session_path %>">
-        <li class="margetop margetop-co"><button action="/" class="btn btn-success poppux"><i class="fa fa-sign-in"></i> Connexion</button>
+        <li class="margetop margetop-co"><button action="/" class="btn btn-success poppux btround"><i class="fa fa-sign-in"></i> Connexion</button>
         </form>
   <% end %>
 
@@ -70,6 +70,6 @@
 
     <%= yield %>
 
-    <footer><p class="text-center">2017 © FarmInvest | Créé à Paris grâce à <a href="http://www.thehackingproject.org/">TheHackingProject</a> 💝</p></footer>
+    <footer><p class="text-center">2017 © FarmInvest | Créé à Paris grâce à <a href="http://www.thehackingproject.org/">TheHackingProject</a></p></footer>
   </body>
 </html>

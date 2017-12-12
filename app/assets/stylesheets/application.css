@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+.jumbotron
+{
+  background-color: #59de86 !important;
+}
+
+.btround {
+  border-radius: 24px;
+}
