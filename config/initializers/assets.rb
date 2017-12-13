@@ -18,13 +18,6 @@ Rails.application.config.assets.precompile += %w( barre.css )
 Rails.application.config.assets.precompile += %w( participate.css )
 Rails.application.config.assets.precompile += %w( participate.js )
 Rails.application.config.assets.precompile += %w( bootstrap-thp.css )
-<<<<<<< 042eddf65058050b91a289e7e4e32e7a9405c0bf
 Rails.application.config.assets.precompile += %w( contacts.css )
 Rails.application.config.assets.precompile += %w( about.css )
-=======
-Rails.application.config.assets.precompile += %w( about.css )
-
-
-
 Rails.application.config.assets.precompile += %w( new.css )
->>>>>>> Lim à ongles
