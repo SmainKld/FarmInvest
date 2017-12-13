@@ -17,5 +17,4 @@ Rails.application.config.assets.precompile += %w( participate.js )
 Rails.application.config.assets.precompile += %w( barre.css )
 Rails.application.config.assets.precompile += %w( participate.css )
 Rails.application.config.assets.precompile += %w( participate.js )
-
-
+Rails.application.config.assets.precompile += %w( bootstrap-thp.css )

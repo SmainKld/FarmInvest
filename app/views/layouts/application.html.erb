@@ -5,7 +5,8 @@
     <title>ProjetFinal</title>
 
     <!-- Boostrap, FontAwesome, Animate, Emoji-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <%= stylesheet_link_tag "bootstrap-thp" %>
+
 <script src="https://use.fontawesome.com/49a0786867.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -19,7 +20,8 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
 <!-- Local CSS -->
-<link href="barre.css" rel="stylesheet">
+    <%= stylesheet_link_tag "barre" %>
+
 
 <!-- Local CSS -->
 <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
@@ -49,12 +51,12 @@
         <li class="margetop"><a href="/">Blog</a></li>
   <% if user_signed_in? %>
         <form method="get" action="/users/edit">
-        <li class="margetop margetop-co"><button action="/users/edit" class="btn btn-success poppux btround"><i class="fa fa-user"></i> Mon Compte</button>
+        <li class="margetop margetop-co"><button action="/users/edit" class="btn btn-login poppux btround"><i class="fa fa-user"></i> Mon Compte</button>
         </form>
   <% else %>
 
             <form method="get" action="<%= new_user_session_path %>">
-        <li class="margetop margetop-co"><button action="/" class="btn btn-success poppux btround"><i class="fa fa-sign-in"></i> Connexion</button>
+        <li class="margetop margetop-co"><button action="/" class="btn btn-login poppux boutonrond"><i class="fa fa-sign-in"></i> Connexion</button>
         </form>
   <% end %>
 

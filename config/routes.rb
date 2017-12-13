@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'rachid/pute'
+
   get 'pages/investir'
 
   devise_for :users
