@@ -1,0 +1,39 @@
+#page_title {
+  font-family: Poppins;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+ .vache5 {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.field {
+  height: 40px;
+  width: 600px;
+}
+
+.name_field {
+  font-family: 'Open Sans', sans-serif, Arial;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.message_field {
+  height: 300px;
+  width: 600px;
+}
+
+.button99 {
+  margin-top: 13px;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    font-size: 20px;
+}
