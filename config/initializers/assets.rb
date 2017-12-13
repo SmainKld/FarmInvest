@@ -18,6 +18,7 @@ Rails.application.config.assets.precompile += %w( barre.css )
 Rails.application.config.assets.precompile += %w( participate.css )
 Rails.application.config.assets.precompile += %w( participate.js )
 Rails.application.config.assets.precompile += %w( bootstrap-thp.css )
+<<<<<<< 1590b44537cccf19939b0acb106ed1c7f48774dc
 
 
 
@@ -30,3 +31,6 @@ Rails.application.config.assets.precompile += %w( bootstrap-thp.css )
 
 
 Rails.application.config.assets.precompile += %w( contacts.css )
+=======
+Rails.application.config.assets.precompile += %w( about.css )
+>>>>>>> vtff Lim

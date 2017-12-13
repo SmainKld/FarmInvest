@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'investir', to: 'pages#investir'
   get 'about', to: 'pages#about'
   resources :contacts, only: [:new, :create]
+  resources :charges
   root 'pages#home'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
