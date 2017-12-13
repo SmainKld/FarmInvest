@@ -1,26 +1,31 @@
-<h1 id="page_title">Say Hello!</h1>
+<h1 id="page_title">Nous contacter</h1>
 
+<br>
+
+<div class="container" style="width: 65%; display: flex; justify-content: center; background-color: #53DF83; border-radius: 10px;">
 <div class="skinny_wrapper wrapper_padding">
   <%= form_for @contact do |f| %>
-    <%= f.label :name %><br>
-    <%= f.text_field :name, required: true %>
+    <div class="name_field"><%= f.label :name %></div>
+    <%= f.text_field :name, required: true, class: "field" %>
+      <br>
 
-    <br>
+      <div class='name_field'><%= f.label :email %></div>
+      <%= f.email_field :email, required: true, class: "field" %>
+      <br>
 
-    <%= f.label :email %><br>
-    <%= f.email_field :email, required: true %>
+      <div class='name_field'><%= f.label :message %></div>
+      <%= f.text_area :message, as: :text, class: "message_field" %>
 
-    <br>
-
-    <%= f.label :message %><br>
-    <%= f.text_area :message, as: :text %>
-
-    <div class="hidden">
-      <%= f.label :nickname %><br>
-      <%= f.text_field :nickname, hint: 'leave this field blank' %>
-    </div>
-
-  <%= f.submit 'Send Message', class: "button99" %>
-    <% end %>
+      <div class="hidden" style="display: none;">
+        <%= f.label :nickname %><br>
+        <%= f.text_field :nickname, hint: 'leave this field blank' %>
+      </div>
+            <br>
+    <%= f.submit 'Envoyer le Message', class: "button99" %>
+      <% end %>
+      <br>
 
 </div>
+</div>
+
+<%= stylesheet_link_tag "contacts" %>
