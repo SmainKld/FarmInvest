@@ -21,10 +21,10 @@ right:47%;
 }
 
 .stripe-button-el {
-  position:absolute;
-  width:200px;
-  bottom:100px;
-  right:45%;
+position:absolute;
+width:200px;
+bottom:100px;
+right:45%;
 }
 
 .cartevaches {
@@ -37,8 +37,7 @@ bottom: 90px;
 .text-center {
 position:absolute;
 bottom:0;
-text-align:center;
-margin-left: -2%;
+margin-left: 32%;
 color: rgb(33, 37, 41);
 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 font-size: 16px;
@@ -53,7 +52,9 @@ border: 4px;
 width: 350px;
 height: 350px;
 margin-top: 1%;
-margin-left: 33%;
+margin-left: 35%;
+font-family: Poppins; Arial;
+border-radius: 4px;
 }
 
 .waranties {
@@ -61,5 +62,13 @@ text-align: center;
 font-weight: bold;
 }
 
-.mylist {
+.fa fa-check-square-o{
+border-bottom: 1px solid;
+text-align: center;
+}
+
+.li2 {
+margin-right: auto;
+margin-left: auto;
+width: 80%;
 }
