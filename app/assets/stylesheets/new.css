@@ -4,6 +4,7 @@ font-family: Poppins; Arial;
 display: flex;
 height: 120px;
 color: white;
+margin-bottom: 35px;
 }
 
 .textheader {
@@ -15,16 +16,18 @@ font-size: 20px;
 
 .amount {
 color: rgb(33, 37, 41);
-position: absolute;
-bottom:50px;
-right:47%;
+margin-top:29px;
+position: relative;
+margin-left: 44.4%;
 }
 
 .stripe-button-el {
-position:absolute;
-width:200px;
-bottom:100px;
-right:45%;
+display: block;
+width:25%;
+margin: auto;
+margin-top: 25px;
+margin-bottom: 15px;
+
 }
 
 .cartevaches {
@@ -35,40 +38,44 @@ bottom: 90px;
 }
 
 .text-center {
-position:absolute;
+
 bottom:0;
-margin-left: 32%;
+margin-left: 415px;
+visibility: hidden;
 color: rgb(33, 37, 41);
 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 font-size: 16px;
 display: inline;
+
 }
 
 .square {
-position: flex;
+display: block;
 background-color: rgb(170, 255, 189);
 box-sizing: border-box;
 border: 4px;
-width: 350px;
+width: 380px;
 height: 350px;
-margin-top: 1%;
-margin-left: 35%;
+margin: auto;
 font-family: Poppins; Arial;
+font-size: 20px;
 border-radius: 4px;
 }
 
 .waranties {
 text-align: center;
 font-weight: bold;
+padding-top: 15px;
+
 }
 
-.fa fa-check-square-o{
-border-bottom: 1px solid;
-text-align: center;
-}
 
 .li2 {
 margin-right: auto;
 margin-left: auto;
 width: 80%;
+}
+
+body {
+  background-image: url(vache_peau.jpg);
 }

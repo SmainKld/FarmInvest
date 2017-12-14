@@ -35,28 +35,31 @@
 
 </div>
 
-<p class= 'simulation'> Simulez un placement fictif pour plus de visibilité ! </p>
+<<p class= 'simulation'> Simulez un placement fictif pour plus de visibilité ! </p>
 
 <div class = 'form Open-Sans-Font'>
-  <form action="simulation_investment">
+ <form action="#calcul-espace" id="calcul-espace">
 
-  <p class="cost">Nombre de vache(s):</p>
+ <p class="cost">Nombre de vache(s):</p>
 
-  <input class="Open-Sans-Font" type="number" id= "cowsnumber" min="1" max="999" >
-
-
-  <p class="cost">Coût estimé du bétail:</p>
-   <input type="numbers" id="cost">
-  <p class="cost">Revenu estimé :</p>
-  <input type='numbers' id="income">
-
-    <p class="cost">Profit estimé :</p>
-    <input type='numbers' id="profit">
-
-    <p class="cost">Profit net après commission :</p>
-    <input type='numbers' id="netprofit">
-  </form>
+ <input class="Open-Sans-Font" type="number" id= "cowsnumber" min="1" max="999" >
+<div style="margin-top: 15px; margin-bottom: 10px;">
+ <input type="submit" class= "btn btn-success" value="Calculer les revenus">
 </div>
-<br>
+ <p class="cost">En :</p>
+  <input type="numbers" id="cost">
+ <p class="cost">Revenu estimé :</p>
+ <input type='numbers' id="income">
+
+   <p class="cost">Vos profits s'éleveront à :</p>
+   <input type='numbers' id="profit">
+
+   <p class="cost">Vous recevrez dans un an :</p>
+   <input type='numbers' id="netprofit">
+ </form>
+</div>
+
+</br>
+
 
 <%= javascript_include_tag('participate.js') %>
