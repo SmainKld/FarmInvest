@@ -1,3 +1,8 @@
+<div class="flex-container777">
+
+<p class="textheader"> Soutenez nos éleveurs tout en bénéficiant de gains importants !</p>
+</div>
+
 <%= form_tag charges_path do %>
   <article>
     <% if flash[:error].present? %>
@@ -13,8 +18,26 @@
   <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
           data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
           data-description="A month's subscription"
-          data-amount="500"
+          data-amount="150000"
+          data-bitcoin=true
+          data-currency=EUR
+          data-label="Régler"
           data-locale="auto"></script>
-<% end %>
 
+<% end %>
+<div class="square">
+<p class="waranties"> Nos garanties : </p>
+<ul class="mylist">
+  <li> Un paiement sécurisé </li>
+  <br>
+  <li> Des vaches élevées en pleine nature et traitées avec soin </li>
+  <br>
+  <li> Remplacement assuré en cas de décès naturel ou d'infertilité </li>
+  <br>
+  <li> ...et plus d'informations si besoin ! </li>
+  <br>
+</div>
+
+
+<%= image_tag "carte-vaches.gif", :class => "cartevaches" %>
 <%= stylesheet_link_tag 'new' %>
