@@ -17,7 +17,17 @@
 
 </div>
 
-<button class="investbutton"><a href="/users/sign_in?">Acheter 1 vache</a></button>
+<% if user_signed_in? %>
+      <form method="get" action="/users/edit">
+      <button action="/users/edit" class="investbutton"></i>Acheter 1 vache !</button>
+      </form>
+<% else %>
+
+          <form method="get" action="<%= new_user_session_path %>">
+      <button action="/" class="investbutton"></i>Acheter 1 vache !</button>
+      </form>
+<% end %>
+
 </div>
 
 <%= image_tag "vachesk.jpg", :class => "vachesk" %>
