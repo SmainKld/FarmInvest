@@ -9,22 +9,22 @@
 
  <p> Donnez un coup de pouce à nos éleveurs de talent tout en bénéficiant d'avantages non négligeables : </p>
 <ul>
-  <li> Un revenu sur investissement situé en moyenne entre 15 et 40% </li>
+  <li> Un revenu sur investissement situé en moyenne entre 8 et 10% </li>
   <li> Votre vache est remplacée en cas de décès accidentel ou d'infertilité </li>
-  <li> Votre troupeau est entretenu et soigné par les bergers locaux </li>
-  <li> Vous supportez une cause humanitaire et contribuez à l'économie locale. </li>
+  <li> Votre troupeau est entretenu et soigné par les éleveurs locaux </li>
+  <li> Vous supportez les éleveurs français et contribuez à l'économie locale. </li>
 </ul>
 
 </div>
 
 <% if user_signed_in? %>
       <form method="get" action="/users/edit">
-      <button action="/users/edit" class="investbutton"></i>Acheter 1 vache !</button>
+      <button action="/users/edit" class="btn btn-info btn-block" style="width: 50%; height: 60px; font-size: 25px;">Acheter 1 vache !</button>
       </form>
 <% else %>
 
           <form method="get" action="<%= new_user_session_path %>">
-      <button action="/" class="investbutton"></i>Acheter 1 vache !</button>
+      <button action="/" class="btn btn-info btn-block" style="width: 50%; height: 90px; font-size: 25px; margin: auto;">Acheter 1 vache !</button>
       </form>
 <% end %>
 
@@ -35,7 +35,7 @@
 
 </div>
 
-<<p class= 'simulation'> Simulez un placement fictif pour plus de visibilité ! </p>
+<p class= 'simulation'> Simulez un placement fictif pour plus de visibilité ! </p>
 
 <div class = 'form Open-Sans-Font'>
  <form action="#calcul-espace" id="calcul-espace">
