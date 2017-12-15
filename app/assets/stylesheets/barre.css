@@ -99,6 +99,7 @@ font-weight: 400;
   height: 300px;
   border-radius: 10px;
   margin-bottom: 55px;
+  position: absolute;
 }
 
 .button {
