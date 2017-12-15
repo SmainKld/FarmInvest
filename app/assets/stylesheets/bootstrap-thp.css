@@ -8381,4 +8381,33 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important;
 }
+
+.edit_user {
+
+}
+
+.violetbutton {
+width: 200px;
+height: 70px;
+color: white;
+font-size: 30px;
+background-color: #8353df;
+border-radius: 40px;
+border: #8353df;
+position: absolute;
+top: -90px;
+right: 40%;
+}
+
+.botpage {
+position: relative;
+top: 40px;
+}
+
+.secondsquare {
+display: flex;
+width: 80%;
+height: 20%;
+background-color: red;
+}
 /*# sourceMappingURL=bootstrap.css.map */

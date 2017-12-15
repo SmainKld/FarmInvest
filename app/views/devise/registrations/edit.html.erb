@@ -35,7 +35,7 @@
   <br/>
 
   <div class="field">
-    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <%= f.label :current_password %> <i>(Merci de renseigner votre mot de passe actuel pour le modifier)</i><br />
     <%= f.password_field :current_password, autocomplete: "off" %>
   </div>
 
@@ -47,13 +47,20 @@
   <br/>
     <br/>
       <br/>
+      <div class=botpage>
 <h3><i class="fa fa-ban"></i>  Fermer votre compte</h3>
 
 <p>Cette opération est définitive <%= button_to "Fermer mon compte",registration_path(resource_name), data: { confirm: "Êtes-vous sur de cela ?" }, method: :delete %></p>
-
   <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
 
 <%= link_to "Retour", :back %>
+<div class=secondsquare>
+  <form method="get" action="/charges/new">
+  <button action="/charges/new" class="violetbutton"></i>J'investis !</button>
+  </form>
+
+</div>
+</div>
  </div>
     </div>
   </div>
